@@ -1,0 +1,93 @@
+body{
+    background-color:"white";
+}
+h1 {
+    font-family: “Hoefler Text”, “Baskerville old face”, Garamond, “Times New Roman”, serif;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: “Goudy Old Style”, Garamond, “Big Caslon”, “Times New Roman”, serif;
+    font-size: 30px;
+    text-align: center;
+    color: darkslategray;
+    margin-top: 0px;
+}
+
+.elevatorPitch{
+    font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+    font-size:20px;
+    margin-top:200px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-110%);
+    max-width:420px;
+    transition: all .2s;
+}
+
+.elevatorPitch:hover{
+    transform: scale(1.1) translateX(-100%);
+}
+
+#canvasContainer{
+    box-shadow: 5px 5px 5px 0px #C9B6AD;
+    position:absolute;
+    left:50%;
+    transform: translateX(10%);
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+
+.tag{
+    box-shadow: 5px 5px 5px 0px #C9B6AD;
+    border-radius: 5px;
+    width: 100px;
+    height:60px;
+    background-color:black;
+    position:fixed;
+    right:0px;
+    top:40px;
+    font-family: Papyrus, fantasy;
+    font-size:20px;
+    padding-top:20px;
+    color:white;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+}
+
+.tag:hover{
+    background-color: white;
+    color:black;
+}
+
+.abstract{
+    border-radius: 5px;
+    background-color: white;
+    transition:background-color .2s;
+    color:white;
+    position:absolute;
+    top:1000px;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: “Goudy Old Style”, Garamond, “Big Caslon”, “Times New Roman”, serif;
+    font-size:18px;
+    margin:0px;
+    width:600px;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    overflow:hidden;
+}
+
+.abstract:hover{
+    background-color: darkslategray;
+}
+

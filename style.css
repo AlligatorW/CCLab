@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.title{
+  background-color: red;
+  color: red;
+  border: 2px solid black;
+  margin: 20px;
+  padding:20px
+}
